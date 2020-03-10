@@ -1,5 +1,6 @@
 body{
     font-family: 'Roboto', sans-serif;
+    
 }
 .coin{
     display: flex;
@@ -15,20 +16,20 @@ body{
     margin-top: 10px;
     
 }
-.zaqolovok{
-    width: 1069px;
+h1{
+    width: 700px;
     height: 71px;
-    margin-left: 124px;
     margin-top: 39px;
     font-style: normal;
     font-weight: 300;
-    font-size: 43px;
+    font-size: 40.5px;
     line-height: 50px;   
 }
 .avraam{
     position: relative;
     display: flex;
-    width: 528px;
+    max-width: 40%;
+    min-width: 450px;
     height: 120px;
     margin-right: 65px;
     margin-bottom: 24px;
@@ -89,7 +90,6 @@ body{
 .price{
     width: 96px;
     height: 120px;
-    margin-left: 39.61px;
     margin-right: -10px;
     font-style: normal;
     font-weight: bold;
@@ -97,6 +97,7 @@ body{
     line-height: 123.4%;
     color: #000000;
     padding-left: 13px;
+    text-align: center;
 }
 .dis-price{
     top: 17px;
