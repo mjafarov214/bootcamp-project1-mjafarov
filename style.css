@@ -1,0 +1,178 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.coin{
+    display: flex;
+    margin: 0 auto;
+}
+.spisok-page{
+    max-width: 1280px;
+    min-width: 600px;
+    height: 605px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 124px;
+    margin-top: 10px;
+    
+}
+.zaqolovok{
+    width: 1069px;
+    height: 71px;
+    margin-left: 124px;
+    margin-top: 39px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 43px;
+    line-height: 50px;   
+}
+.avraam{
+    position: relative;
+    display: flex;
+    width: 528px;
+    height: 120px;
+    margin-right: 65px;
+    margin-bottom: 24px;
+}
+.moneta{
+    width: 126px;
+}
+.mon{
+    margin-top: -26px;
+    margin-left: -24px; 
+}
+.mon img{
+    width: 172px;
+    height: 172px;
+}
+.discount{
+    position: absolute;
+    left: 82.17px;
+    bottom: 76.03px;
+    width: 43.87px;
+    height: 43.97px;
+    border-radius: 100px;
+    background-color: #833AE0;
+}
+.disc{
+    position: absolute;
+    font-style: normal;
+    width: 35px;
+    height: 24px;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 13px 3px 6.97px 5.83px;
+}
+.tekst{
+    width: 224.39px;
+    margin-left: 42px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    font-style: normal;
+    padding-left: 6px;
+    padding-top: 3px;
+}
+.tekst a{
+    color: #833AE0;
+    text-decoration: none;
+}
+.tek{
+    font-size: 12px;
+    line-height: 15.5px;
+    margin-top: 14px;
+    color: black;
+    font-weight: normal;  
+}
+.price{
+    width: 96px;
+    height: 120px;
+    margin-left: 39.61px;
+    margin-right: -10px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 123.4%;
+    color: #000000;
+    padding-left: 13px;
+}
+.dis-price{
+    top: 17px;
+    font-weight: normal;
+    font-size: 12px;
+    color: gray;
+}
+.coin-tekst{
+    width: 456px;
+    margin-top: 24px;
+    background: rgba(196, 196, 196, 0.5);
+    padding-bottom: 39px;
+}
+.coin-osnovnaya{
+    padding:12px 44px 0 47px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 25px;
+    color: #000000;
+}
+.coin-tekst-info{
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: normal;
+}
+.art{
+    font-size: 10px;
+    font-weight: normal;
+    color: gray;
+}
+.coin-number{
+    font-size: 11px;
+}
+.coin-info{
+    height: 160px;
+    font-size: 10px;
+    padding: 0 40px 0 42px;
+    margin-top: -10px;
+}
+td{
+    width: 50%;
+}
+tr:nth-child(odd){
+    background-color: white;   
+}
+.cancel-back{
+    height: 160px;
+    font-size: 10px;
+    margin-left: 47px;
+}
+.coin-page{
+    display: flex;
+    min-width: 600px;
+    max-width: 920px;
+    padding: 0 20%;
+}
+.coin-image{
+    width: 463px;
+    height: 463px;
+    margin-top: -54px;
+    
+}
+.coin-image img{
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+}
+.reverse{
+    position: absolute;
+    top: -475px;
+    display: none;
+}
+.coin-image:hover .reverse{
+    display: block;
+}
+.cancel{
+    margin-top: 59px;
+}
