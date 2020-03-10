@@ -157,17 +157,19 @@ tr:nth-child(odd){
 .coin-image{
     width: 463px;
     height: 463px;
-    margin-top: -54px;
+    margin-top: 120px;
+    position: relative;
     
 }
 .coin-image img{
-    width: 100%;
+    max-width: 100%;
+    min-width: 0%;
     margin-top: 10px;
-    position: relative;
+    
 }
 .reverse{
     position: absolute;
-    top: -475px;
+    top: 0;
     display: none;
 }
 .coin-image:hover .reverse{
