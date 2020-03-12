@@ -75,6 +75,7 @@ h1{
     font-style: normal;
     padding-left: 6px;
     padding-top: 3px;
+    margin
 }
 .tekst a{
     color: #833AE0;
@@ -83,9 +84,13 @@ h1{
 .tek{
     font-size: 12px;
     line-height: 15.5px;
-    margin-top: 14px;
     color: black;
-    font-weight: normal;  
+    font-weight: normal; 
+    padding: 0;
+    margin: 0 ;
+}
+.tektekst{
+    margin-top: 14.4px;
 }
 .price{
     width: 96px;
